@@ -1,6 +1,6 @@
 This repository presents my master thesis in Computer Engineering, Artificial Intelligence, which I completed from 2001 to 2003.
 
-The "source" folder contains the source code of all the programs that I developed for my thesis. They are mostly written in Python_ 2.1, which was not a common choice for AI researchers around the world, especially in Iran, at that time.
+The "source" folder contains the source code of all the programs that I developed for my thesis. They are mostly written in `Python <https://www.python.org/>`_ 2.1, which was not a common choice for AI researchers around the world, especially in Iran, at that time.
 
 The "data" folder includes all the data that I generated and utilized throughout the thesis.
 
@@ -16,4 +16,3 @@ The "write" folder holds my assertions and related files.
 * https://softdeluxe.com/SC-UniPad-244442/download/
 * https://en.freedownloadmanager.org/Windows-PC/SC-UniPad-FREE.html
 
-.. _Python:: https://www.python.org/
