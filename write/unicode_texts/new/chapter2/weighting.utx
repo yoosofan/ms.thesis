@@ -1,0 +1,79 @@
+در این بخش به کمک 
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>L</mi>
+    <mrow>
+     <mi>i</mi><mi>j</mi>
+    </mrow>
+   </msub>
+   <mo>*</mo><msub>
+    <mi>G</mi>
+    <mi>i</mi>
+   </msub>
+   <mo>*</mo><msub>
+    <mi>N</mi>
+    <mi>j</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdYeamnaaBaaaleaacqWGPbqAcqWGQbGAaeqaaOGaeiOkaOIaem4raC0aaSbaaSqaaiabdMgaPbqabaGccqGGQaGkcqWGobGtdaWgaaWcbaGaemOAaOgabeaaaaa@4BBE@</annotation>
+ </semantics>
+</math>
+>>>
+ وزن واژه به دست می‌آید.
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>L</mi>
+    <mrow>
+     <mi>i</mi><mi>j</mi>
+    </mrow>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdYeamnaaBaaaleaacqWGPbqAcqWGQbGAaeqaaaaa@44A6@</annotation>
+ </semantics>
+</math>
+>>>
+ برابر وزن محلی واژه i اُم در سند j اُم است. به طور ساده در وزن دهی محلی باید به واژه‌هایی که در یک سند فراوانی بیشتری دارند ، بهای بیشتری داده شود.
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>G</mi>
+    <mi>i</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdEeahnaaBaaaleaacqWGPbqAaeqaaaaa@433F@</annotation>
+ </semantics>
+</math>
+>>>
+ وزن سراسری واژه‌ی i اُم در همه‌ی سندها است. بسیاری از روشهای وزن دهی سراسری بر این پایه استوارند که واژه‌ی با فراوانی کمتر در همه‌ی سندها ارزش بیشتری در بازیابی اطلاعات داشته باشد. 
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>N</mi>
+    <mi>j</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabd6eaonaaBaaaleaacqWGQbGAaeqaaaaa@434F@</annotation>
+ </semantics>
+</math>
+>>>
+ ضریب نرمال کننده برای سند j اُم است که با توجه به طول سند مقدار وزن را بگونه‌ای تغییر می‌دهد که در هنگام جستجو به سندهای بزرگ بهای بیشتری داده نشود.
+	در پرس و جو اغلب وزن واژه با فراوانی واژه در آن پرس و جو برابر است. در روش دیگری بسادگی وجود یک واژه در پرس و جو با یک نشان داده می‌شود و نبود آن واژه با صفر نشان داده می‌شود. در این روش بردار پرس و جو تنها دربردارنده‌ی صفر و یک خواهد بود.
+<<< اگر نیاز شد طرحهای متداول وزن دهی>>>

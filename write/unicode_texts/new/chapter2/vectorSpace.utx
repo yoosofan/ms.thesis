@@ -1,0 +1,123 @@
+این روش را نخستین بار salton  و همکاران در دهه‌ی شصت میلادی (۱۹۶۰) در دانشگاه cornel (امریکا) پیشنهاد دادند. سپس سیستمی به نام SMART را که یک سیستم بازیابی اطلاعات است ، پیاده سازی کردند[Salehi2000].سیستم SMART هنوز هم پایه‌ی بسیاری از کارهای پژوهشی در زمینه‌ی بازیابی اطلاعات به کمک روش فضای برداری است.
+	در آغاز همانند همه‌ی روشهای بازیابی اطلاعات کارهای پیش پردازشی روی سندها انجام می‌شوند. اگر تعداد همه‌ی واژه‌های باقی مانده از سندها برابر t باشد ، آنگاه می‌توان هر سند را به صورت یک آرایه به صورت زیر پنداشت.
+<<<Equation: ببب [  d=[f1 f2 ... ft
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <mi>D</mi><mo>=</mo><mo>&#x007B;</mo><msub>
+    <mi>f</mi>
+    <mn>1</mn>
+   </msub>
+   <mo>,</mo><msub>
+    <mi>f</mi>
+    <mn>2</mn>
+   </msub>
+   <mo>,</mo><mn>...</mn><mo>,</mo><msub>
+    <mi>f</mi>
+    <mi>t</mi>
+   </msub>
+   <mo>&#x007D;</mo>
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aqatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdseaejabg2da9iabcUha7jabdAgaMnaaBaaaleaacqaIXaqmaeqaaOGaeiilaWIaemOzay2aaSbaaSqaaiabikdaYaqabaGccqGGSaalcqGGUaGlcqGGUaGlcqGGUaGlcqGGSaalcqWGMbGzdaWgaaWcbaGaemiDaqhabeaakiabc2ha9baa@52F9@</annotation>
+ </semantics>
+</math>
+>>>
+
+	در این آرایه
+<<<Equation:
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>f</mi>
+    <mi>i</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aqatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdAgaMnaaBaaaleaacqWGPbqAaeqaaaaa@437E@</annotation>
+ </semantics>
+</math>
+>>>
+ فراوانی (تعداد تکرار) واژه i اُم در این سند است. روشن است که فراوانی واژه‌هایی که در این سند نیستند برابر صفر است. اکنون اگر برای همه‌ی سندها چنین کاری انجام شود و همه‌ی آنها در یک ماتریس گذاشته شوند ، آنگاه در این ماتریس تعداد سطرها برابر تعداد سندها (N) است و تعداد ستونها برابر تعداد واژه‌ها (t) خواهد شد. به جای به کار گیری فراوانی واژه ، وزنی به هر واژه در هر سند نسبت داده می‌شود که بهتر بتواند نشان دهنده‌ی ارزش آن واژه در آن سند باشد. با انجام این کارها ماتریسی به نام ماتریس واژه سند ساخته می‌شود. این ماتریس در شکل زیر نشان داده شده است.
+<<<شکل ماتریس واژه سندE:\yousefan\thesis\work\write\images\chapter2\termDoc.gif>>>
+	اگر واژه‌های جداگانه‌ی سندها یک فضای برداری t بُعدی را بسازند ، آنگاه این واژه‌ها ، بردارهای پایه‌ی (یکه‌ی) این فضای برداری هستند. همچنین سندها را می‌توان بردارهایی در این فضای برداری پنداشت و نقطه‌ی آغازِ بردارِ همه‌ی سندها مبدأ مختصاتِ این فضای برداری است. پیکان(پایان) بردار i اُم نقطه‌ای به مختصات
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>D</mi>
+    <mi>i</mi>
+   </msub>
+   <mo>=</mo><mo stretchy='false'>[</mo><msub>
+    <mi>W</mi>
+    <mrow>
+     <mi>i</mi><mn>1</mn>
+    </mrow>
+   </msub>
+   <mtext>&nbsp;</mtext><msub>
+    <mi>W</mi>
+    <mrow>
+     <mi>i</mi><mn>2</mn>
+    </mrow>
+   </msub>
+   <mtext>&nbsp;</mtext><mn>...</mn><mtext>&nbsp;</mtext><msub>
+    <mi>W</mi>
+    <mrow>
+     <mi>i</mi><mi>t</mi>
+    </mrow>
+   </msub>
+   <mo stretchy='false'>]</mo>
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdseaenaaBaaaleaacqWGPbqAaeqaaOGaeyypa0Jaei4waSLaem4vaC1aaSbaaSqaaiabdMgaPjabigdaXaqabaGccqqGGaaicqWGxbWvdaWgaaWcbaGaemyAaKMaeGOmaidabeaakiabbccaGiabc6caUiabc6caUiabc6caUiabbccaGiabdEfaxnaaBaaaleaacqWGPbqAcqWG0baDaeqaaOGaeiyxa0faaa@5775@</annotation>
+ </semantics>
+</math>
+>>>
+است. بر روی پرس و جوی کاربر نیز کارهای پیش پردازشی انجام می‌شود. سپس پرس و جو نیز به صورت
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <mi>Q</mi><mo>=</mo><mo stretchy='false'>[</mo><msub>
+    <mi>q</mi>
+    <mn>1</mn>
+   </msub>
+   <mtext>&nbsp;</mtext><msub>
+    <mi>q</mi>
+    <mn>2</mn>
+   </msub>
+   <mtext>&nbsp;</mtext><mn>...</mn><mtext>&nbsp;</mtext><msub>
+    <mi>q</mi>
+    <mi>t</mi>
+   </msub>
+   <mo stretchy='false'>]</mo>
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdgfarjabg2da9iabcUfaBjabdghaXnaaBaaaleaacqaIXaqmaeqaaOGaeeiiaaIaemyCae3aaSbaaSqaaiabikdaYaqabaGccqqGGaaicqGGUaGlcqGGUaGlcqGGUaGlcqqGGaaicqWGXbqCdaWgaaWcbaGaemiDaqhabeaakiabc2faDbaa@5289@</annotation>
+ </semantics>
+</math>
+>>>
+ نوشته می‌شود. در اینجا باز t تعداد واژه‌های جداگانه در گردایه سندها است.
+<<<Equation:
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>q</mi>
+    <mi>j</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdghaXnaaBaaaleaacqWGQbGAaeqaaaaa@4395@</annotation>
+ </semantics>
+</math>
+>>>
+ وزن واژه j اُم در پرس و جو است. همچنین پرس و جو نیز همانند سندها به صورت یک بردار در فضای برداری پنداشته می‌شود. در شکل زیر فضای برداری با تعداد واژه‌های جداگانه t=۳ نشان داده شده است.
+<<<E:\yousefan\thesis\work\write\images\chapter2>>>
+	 برای سادگی کار تنها یک پرس و جو برای سیستم در نظر گرفته می‌شود. گرچه اغلب سیستم بازیابی اطلاعات در یک زمان با پرس و جوهای زیادی روبرو است. می‌توان ماتریسی را نیز برای پرس و جوها پنداشت  که در شکل زیر این ماتریس فرضی نشان داده شده است.
+<<<شکل: ماتریس پرس و جوی واژه E:\yousefan\thesis\work\write\images\chapter2\queryTerm.emf>>>
+به هر حال روند کار چه با یک پرس و جو و چه با دسته‌ای از پرس و جوها یکسان است زیرا هر پرس و جو جداگانه پردازش می‌شود.

@@ -1,0 +1,50 @@
+﻿Baeza-Yates , Richardo . Berthier Ribeiro-Neto. modern information retrieval . New York ,ACM Press , Addison-Wesley , 1999
+kowalski , G. Information retrieval systems, Theory and  Implementation. kluwer publisher, 1998.
+salton , G. M.J. McGill(1983). An introduction to Information retrieval. McGraw Hill.
+Tang , Chunqiang , Zhichen Xu , Sandhya Dwarkdas, Mallik Mahalingamzhichen (2003) . "Distributed Content-based Search on Structured Peer-to-Peer Overlay Networks".  from the site "http://www.hpl.hp.com/news/events/csc/2003/zhichen_slides.ppt".  Latest view of this site was 16 January 2004.
+salehi , Maziar . An Intelligent Agent-Oriented Structure for Text Information Retrieval , MSC thesis , Shiraz university , 2000. from the site "".  Latest view of this site was 16 January 2004.
+Honglan ,JIN ,  and WONG Kam Fai William(2002). "A Chinese Dictionary Construction Algorithm for Information Retrieval", ACM Transactions on Asian Language Information Processing vol.1 no.4, pp.281-296. 2002.12
+
+nakos , george , and david joyner(1998). linear algebra with applications.  Brooks/cole publisshing company.
+Dumais ,S(1991). “Improving the retrieval of information from external sources”, Behavior Research Methods, Instruments, and Computers, 23: 229-236.
+Glub ,G. , And C. Van Loan(1996). Matrix Computations.  John hopkins university press.
+Berry ,W.M. , Amd T. Dumais(1996). "Computational models for intelligent information access". proceeding of supercomputing, San Diego ,CA December 1996.
+Berry ,W.M. , S. T. Dumais, G.W. O’Brien(1995). "using linear algebra for intelligent information retrieval". SIAM Rev. Vol 37,PP 573-595.
+Berry ,M.W.(1992). "Large scale singular value computations". international journal of supercomputer Applications ,Vol.6,pp.13-49.
+Scherer , Markus (2000). "A brief introduction to code pages and Unicode" . from the site "http://www-106.ibm.com/developerworks/library/codepages.html" , Latest view of this site was 15 January 2004.
+Matthew , Neil , and Richard Stones, and others(2000). Professional Linux Programming. Wrox Press Ltd.
+Davis , mark (2003). "The Bidirectional Algorithm". from the site "http://www.unicode.org/reports/tr9/". Latest view of this site was 15 January 2004.
+kuhn , markus (2003). "UTF-8 and Unicode FAQ for Unix/Linux". from the site "http://www.cl.cam.ac.uk/~mgk25/unicode.html"  Latest view of this site was 15 January 2004.
+Burger , Thomas Wolfgang(2001). "How to incorporate and utilize Unicode for foreign language support".  from the site "http://www-106.ibm.com/developerworks/linux/library/l-linuni.html". Latest view of this site was 15 January 2004.
+Arms ,William Y.(2002). "Latent Semantic Indexing". from the site "http://courses.cs.cornell.edu/cs430/2002fa/slides/lecture11.ppt". Latest view of this site was 15 January 2004.
+Belew ,R.K.(2000). Finding Out About. Cambridge Univ. Press.
+Drmac ,Zlatko , And W.M. Berryy , W. ,Elizabeth R. Jessupz(1999). "Matrices, Vector Spaces, and Information Retrieval". SIAM REVIEW , Society for Industrial and Applied Mathematics,Vol. 41, No. 2, pp. 335–362.
+
+سایت انفورماتیک ایران http://www.hci.or.ir
+
+http://www-106.ibm.com/developerworks/linux/library/l-linuni.html
+http://www.tartarus.org/~martin/PorterStemmer
+http://snowball.tartarus.org/porter/stemmer.html
+http://ir.hit.edu.cn/~tliu/ir-course/15-Stem-2.ppt
+http://www.dcs.gla.ac.uk/~iain/keith/index.htm
+http://www.httrack.com
+سایت تحقیقاتی آمریکا
+
+
+ref_a: در week3.ppt اسلاید ۶ سایت آن را بنویس    http://www.sis.pitt.edu/~erasmus/week3.ppt
+ref_b: در irmodels.ppt اسلاید ۱۳ سایت را پیدا کن و بنویس  http://www.cs.utexas.edu/users/mooney/ir-course/slides/IRmodels.ppt
+۱۹۵۹۳۹۰۷۰
+ref_c: linear algebra with applications, george nakos  , david joyner , Brooks/cole publisshing company, 1998
+[honglan] Honglan Jin and Kam-Fai Wong ....from site   http://www.se.cuhk.edu.hk/dn/TALIP-02-a35.doc  .....  A Chinese Dictionary Construction Algorithm for Information Retrieval ... Department of Systems Engineering and Engineering Management.....The Chinese University of Hong Kong....Shatin, N.T., Hong Kong.....{hljin,kfwong}@se.cuhk.edu.hk
+
+
+
+
+////tahayori ,   Hooman . Natural Language Processing for Data Extraction An Intelligent Method for Improving Human Performance, MSC thesis , Shiraz University, 2000.
+////Blair , D. C.  Maron M.E., “An evaluation of retrieval effectiveness for a full text document-retrieval system”, Communications of the ACM, 28(3), pp: 289-299, 1985
+////Chen H. ,Dhar V., cognitive process as a basis for intelligent  retrieval systems design , Information processing and  management ,27,PP 405-432,1991.
+///Quinlan J.,Introduction of decision trees , Machine learning ,1, PP 81-106 , 1993.
+///Doskocs T., reggia J. Lin X., connectionist models and information retrieval , annual review of information science and technology ,25 , PP 209-260 ,1990.
+////Belew R. , Adaptive information Retrieval proceedings of the 12’th  annual international ACM/SIGIR conference on research and development in IR, PP 11-20 , 1989.
+////Chen H., Machine learning for Information retrieval neural network ,symbolic learning and Genetic algorithms, journal of the American society for information science, 46(3),PP 194-216,1995.
+////Gordon, M.D, “Probabilistic and genetic algorithms for document retrieval”, Communications of the ACM, 31(10), pp: 1208-1218, 1988

@@ -1,0 +1,96 @@
+یادآوری و دقت بگونه‌ای که تا کنون تعریف شد ، درباره‌ی جای پاسخها و مرتبه‌ی آنها اطلاعاتی نمی‌دهد. در اینجا دقت و یادآوری بگونه‌ای تعریف می‌شود که دربردارنده‌ی جای پاسخها نیز باشد[Salehi2000].
+	به کمک فهرست مرتب شده‌ای از اشاره‌گرها به سندهایی که سیستم در پاسخ به پرس و جوی کاربر یافته است ، معیار دیگری تعریف می‌شود. سالانه کنفرانسی به نام TREC (ازText REtrival Conference گرفته شده است) در دنیا برگزار می‌شود که به ارزیابی و رتبه بندی جویشگرها می‌پردازد. این معیار یکی از معیارهای پایه‌ی تعریف شده در این کنفرانس برای ارزیابی جویشگرها است. به جای به دست آوردن یک یادآوری به کمک پاسخهای مرتب شده‌ی سیستم فهرستی از یادآوریها آماده می‌شود یا به عبارت دیگر برای هر یک از پاسخها یک یادآوری به دست می‌آید. یادآوری در سند i اُم (از سندهای بازیابی شده و دارای رتبه‌ی i اُم در این سندها) برابر است با :
+<<<فرمول ri/rn>>>
+<<< ادامه‌ی خط پس از فرمول
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <mfrac>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mi>i</mi>
+     </msub>
+     
+    </mrow>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mi>n</mi>
+     </msub>
+     
+    </mrow>
+   </mfrac>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaamaalaaabaGaemOCai3aaSbaaSqaaiabdMgaPbqabaaakeaacqWGYbGCdaWgaaWcbaGaemOBa4gabeaaaaaaaa@46AD@</annotation>
+ </semantics>
+</math>
+>>>
+که
+<<< ادامه‌ی خط پس از فرمول
+ <math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>r</mi>
+    <mi>i</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdkhaYnaaBaaaleaacqWGPbqAaeqaaaaa@4395@</annotation>
+ </semantics>
+</math>
+>>>
+ تعداد سندهای مربوط و بازیابی شده تا کنون را نشان می‌دهد و
+<<< ادامه‌ی خط پس از فرمول
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <msub>
+    <mi>r</mi>
+    <mi>n</mi>
+   </msub>
+   
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdkhaYnaaBaaaleaacqWGUbGBaeqaaaaa@439F@</annotation>
+ </semantics>
+</math>
+>>>
+ تعداد همه‌ی سندهای مربوط در گردایه را نشان می‌دهد. دقت در سند i اُم برابر است با :
+<<<فرمول دقت  از صالحی experimental and result>>>
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'> <semantics> <mrow>  <msub>   <mi>p</mi>   <mi>i</mi>  </msub>  <mo>=</mo><mfrac>   <mn>1</mn><mrow>   <msub>   <mi>r</mi><mi>i</mi></msub></mrow></mfrac> <mstyle displaystyle='true'>  <munder>   <mo>&#x2211;</mo>   <mrow> <mi>i</mi><mo>&#x2208;</mo><mi>I</mi>  </mrow></munder><mrow><mfrac><mrow><msub><mi>r</mi><mi>i</mi></msub></mrow><mi>i</mi> </mfrac></mrow></mstyle></mrow> <annotation encoding='MathType-MTEF'> MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaaiabdchaWnaaBaaaleaacqWGPbqAaeqaaOGaeyypa0ZaaSaaaeaacqaIXaqmaeaacqWGYbGCdaWgaaWcbaGaemyAaKgabeaaaaGcdaaeqbqaamaalaaabaGaemOCai3aaSbaaSqaaiabdMgaPbqabaaakeaacqWGPbqAaaaaleaacqWGPbqAcqGHiiIZcqWGjbqsaeqaniabggHiLdaaaa@5325@</annotation> </semantics></math>
+
+در TREC از صفر تا یک روی محور یادآوری ده بخش شده است ، یا به عبارت دیگر ۱۱ عدد  ۱... ۰،۰.۱،۰.۲ روی محور یادآوری گذاشته شده است و یادآوریها عددهای ثابتی هستند. سپس به کمک گونه‌ای از میانگین گیری ،‌ «شبه دقت» تعریف می‌شود که به آن «دقت میانگین بدون درونیابی» (not interpolated average precision) گفته می‌شود.
+<<<فرمول دقت p(x)=max{ ri <= x * rn , i=1 ....n }
+<<< ادامه‌ی خط پس از فرمول
+<math display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+ <semantics>
+  <mrow>
+   <mover>
+    <mi>p</mi>
+    <mo>&#x005E;</mo>
+   </mover>
+   <mo stretchy='false'>(</mo><mi>x</mi><mo stretchy='false'>)</mo><mo>=</mo><mi>max</mi><mo>&#x2061;</mo><mo>&#x007B;</mo><msub>
+    <mi>p</mi>
+    <mi>i</mi>
+   </msub>
+   <mo>&#x007C;</mo><mtext>&nbsp;</mtext><msub>
+    <mi>r</mi>
+    <mi>i</mi>
+   </msub>
+   <mo>&#x2265;</mo><mi>x</mi><mo>*</mo><msub>
+    <mi>r</mi>
+    <mi>n</mi>
+   </msub>
+   <mo>,</mo><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>...</mn><mo>,</mo><mi>n</mi><mo>&#x007D;</mo>
+  </mrow>
+ <annotation encoding='MathType-MTEF'>
+ MathType@MTEF@5@5@+=feaafiart1ev1aaatCvAUfKttLearuqr1ngBPrgarmqr1ngBPrgitLxBI9gBamXvP5wqSXMqHnxAJn0BKvguHDwzZbqegm0B1jxALjhiov2DaeHbuLwBLnhiov2DGi1BTfMBaebbfv3ySLgzGueE0jxyaibaieYdh9qrpeeu0dXdh9vqqj=hEeeu0xXdbba9arpi0=irpK0dbba91qpK0=vr0RYxir=dbbc9q8aq0=yqpe0xbba9suk9fr=xfr=xfrpiWZqaaeaabiGaciaacaqabeaadaabauaaaOqaamaaxacabaGaemiCaahaleqabaGaeiOxa4faaOGaeiikaGIaemiEaGNaeiykaKIaeyypa0JagiyBa0MaeiyyaeMaeiiEaGNaei4EaSNaemiCaa3aaSbaaSqaaiabdMgaPbqabaGccqGG8baFcqqGGaaicqWGYbGCdaWgaaWcbaGaemyAaKgabeaakiabgwMiZkabdIha4jabcQcaQiabdkhaYnaaBaaaleaacqWGUbGBaeqaaOGaeiilaWIaemyAaKMaeyypa0JaeGymaeJaeiilaWIaeiOla4IaeiOla4IaeiOla4IaeiilaWIaemOBa4MaeiyFa0haaa@685C@</annotation>
+ </semantics>
+</math>
+>>>
+که در این رابطه n تعداد پرس و جوها است. به این ترتیب به ازای هر یادآوری روی محور افقی (۰ تا ۱ به ۱۰ بخش) یک دقت به دست می‌آید و نمودار یادآوری-دقت کشیده می‌شود.

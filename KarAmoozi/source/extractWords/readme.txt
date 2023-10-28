@@ -1,0 +1,75 @@
+ترتیب اجرای برنامه‌ها
+۱ـ  correctPreWords.py (بار دیگر نیاز نیست)
+۲ـ  prepareExtract.py (باید کمی دستکاری شود و ساده‌تر ‌گردد. c1.py را نگاه کنید)
+۲.۲ـ   c1.py            (بار دیگر نیاز نیست)
+۳ـ  extractWords.cpp
+/////////////////////////////////////////////////////////////////////////////
+////////////////////////////// correctPreWords.py ////////////////////
+ورودی ::::
+path00='/home/yousefan/tez/work/data'
+f1=open(os.path.join(path00,'allWords.html'        ),'r')
+f2=open(os.path.join(path00,'deletedWords.html'  ),'r')
+
+
+خروجی ::::
+f3=open(os.path.join(path00,'allPreparedWords.hh'),'w')
+
+
+
+پرونده correctPreWords.py برای این نوشته شد که خروجیهای پیشین بیرون آوردن کلمه‌ها را درست و سرهم کند.
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+/////////////////////// prepareExtract.py //////////////////////////
+
+ورودی و خروجی ::::::
+path00='/mnt/win_e/ahmad'
+progObject2=prepareExtractCls(os.path.join(path00,'words1256.hh'),os.path.join(path00,'data'))
+
+
+پرونده prepareExtract.py  برای این نوشته شد که همه کارهایی را که با python ساده‌تر است را با آن انجام دهد و سرعت هم چندان بستگی ندارد. این پرونده کارهای زیر را انجام می‌دهد.
+۱ـ همه فایلهای html را باز می‌کند و کلمه‌های فارسی آن را بیرون می‌کشد.
+۲ـ فایلهایی را که تعداد کلمه‌ها در آنها کمتر از ۲۰ است را برمی‌دارد.
+۳ـ کلمه‌ها را در پرونده‌ای می‌ریزد که هر سطر آن کلمه‌های فارسی یکی از فایلهای html است.
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+/////////////////  c1.py ///////////////
+
+ورودی ::::::
+f1=open("/mnt/win_e/ahmad/words1256.hh")
+
+خروجی ::::::
+f2=open("/home/yousefan/tez/dataset/words1256.hh","w")
+
+برای ساده کردن خروجی برنامه prepareExtract.py است. تا برنامه ++c ساده‌تر نوشته شود.
+۱ـ در نخستین اجرا از prepareExtract.py  فایلهای با تعداد کلمه‌های کمتر از ۲۰ نیز در پرونده آخر آورده شده‌اند.
+۲ـ برای سادگی کار فراوانی کلمه‌ها برداشته شده‌است. فراوانی یک کلمه در یک فایل زیادی است. 
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+ string path="/home/yousefan/tez/dataset/";
+ string inputWordsFileName=path+"words1256.hh";
+ string preWordsFileName  =path+"allPreparedWords.hh";
+ path   += "out1/";
+ string wordsFile=path+"allWords.hh";
+ string freqFile =path+"FreqWords.hh";
+ delRep r1(inputWordsFileName,preWordsFileName);
+  r1.run();
+  r1.saveAll(wordsFile,freqFile);
+
+
+
+
+
+
+پرونده extractWords.cpp  برای بدست آوردن فراوانی کلمه‌ها از خروجی برنامه بخش پیش می‌باشد.

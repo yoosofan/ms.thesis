@@ -1,0 +1,9 @@
+Processing Persian Text:
+Tokenization in the Shiraz Project
+Karine Megerdoomian and Rémi Zajac
+Memoranda in Computer and Cognitive Science
+MCCS-00-322
+Computing Research Laboratory
+New Mexico State University
+Las Cruces, New Mexico
+April 2000
